@@ -33,7 +33,7 @@ export const Registration = () => {
       setErrors({ ...errors, passwordConfirm: 'Hesla se neshoduji.' });
       return;
     }
-    console.log(user);
+    //console.log(user);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
